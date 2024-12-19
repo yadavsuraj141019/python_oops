@@ -1,0 +1,51 @@
+-> What Is Inheritance?
+
+	-> Deriving new class from an existing class so that new class inherits all members(attributes + methods) of existing class is called as inheritance
+
+
+-> why we use inheritance?
+	
+	-> for code-reusability(write once use many times)  
+	-> when you have relations among classes
+
+
+-> how to constructor overriding ?
+
+	-> agar aapke pas parent aur child class dono hai agar aapne parent class ko inherit kiya child mai to aapke parent class mai constructor hai aur child mai nahi hai to child ke object se parent ka constructor call ho jayega.... but agar chile ke pas bhi constructor hai aur parent ke pas bhi to child ke object se child ka constructor call hoga parent ka override ho jayega...parent ka nahi hoga child ka constructor call hoga isko bolte hai constructor overidding
+
+	-> agar aapko dono constructor call karna hai parent ka bhi aur child ka bhi to aapko super() method used karna padega....
+
+
+
+-> Types of inheritance ?
+
+	-> 6 types of inheritance:1)single inheritance 2)multi-level inheritance 3)hierarchical inheritance 4)multiple inheritance 5) hybrid inheritance 6) cyclic inheritance
+
+	1) single inheritance: one parent and one child class is called single inheritance
+
+	2) multi-level inheritance: parent class,child class and grand child class 
+		e:g : parent
+				|
+			  child
+			    |
+			  Grand_child
+			    |
+			  others
+
+		 grand_child ke objects se aap parent aur child dono class ko accees kar sakta hai...child class can acesss only parent class or they can not acess grand_child
+
+	3) hierarchical inheritance: one parent and multiple child classes
+		-> there is one parent class and multiple child classes suppose two child classes child 1 and child 2 both are access parent class variable and properties etc but parent can't acesss and child 1 and child 2 both can't acess each other properties....
+
+	4) multiple inheritance: multiple parent class hote hai aur ek child class hota hai.. child class acesss multiple parent class but multiple parent class is not acess child class
+
+	syntax:
+	          class parent1():
+	          		pass
+	          class parent2():
+	          		pass
+	          class child(parent1,parent2):
+	          		pass
+
+
+	          		note:child(parent1,parent2) means parent 1 is higher priority than parent 2.... because hamesa left to right chlata hai agar apne aessa likha like child(parent2,parent1) to sabse jada priority hoga parent 2 ka okkk   

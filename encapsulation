@@ -1,0 +1,24 @@
+-> What is encapsulation in python ?
+
+	-> Wrapping up data and methods working on data together in a single unit (i.e class) is called as encapsulation
+
+
+	-> encapsulation ke madad se apne class ke bahar se koi bhi property or method access nahi kar sakte 
+
+
+-> Access Modifiers:
+	
+	-> Generally, we restrict data access outside the class in encapsulation
+
+	-> Three Access Specifiers: public, private, protected
+
+		-> public variables access everywhere in class or outside class
+
+		-> private access within class. or aap object ke madad se class ke bahr bhi acess nahi kar sakte
+
+		-> protected access within class or its subclass but python mai protected jada use nahi hota hai
+
+
+
+
+-> Note: class and function are always callable function in python

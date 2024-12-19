@@ -1,0 +1,45 @@
+-> class objects constructor kya hota hai ye sab pata hai to uske bare mai example nahi likh rha hoo.....
+
+
+
+-> in python how to declare constructor:
+	
+	class Employee:	
+		def __init__(self,sal,ag):
+
+			self.salary=sal
+			self.age=ag
+
+	e1=Employee(24000,21)
+	e2=Employee(26000,23)
+
+
+	note: def __init__() is tarike se constructor declare hota hai python mai....
+
+	-> self: self ek memory address hota hai object ka like e1 is object of class to el ka memory address hota. memory address hexadecimal hota hai like 2234 aesa...
+
+		note:self keyword dena compulsory hai pytho mai....
+
+	-> self.salary: self.salary ka matlab ye hota hai vo memory address leta hai objects ka uske help se vo salary name ka  variable create karega....
+
+	-> def: def keyword se function create hota hai in python.... 
+
+
+-> in oops there are two variables 
+
+	1): Instance Variables: instance variables ka matlab alag alag objects ke alag alag values is called instance variables.... alag alag copies banegi aur alag alag values hogi.....
+
+		note: agar aapne ek object mai change kiya to baki sab objects mai change nahi hoga.
+
+	2): Class Variables: class variables ka matlab ek hi copy create hota sab object ke liye is called class variables. class variables is made for all objects...
+
+		note: but class variables mai koi bhi object mai modify or change nahi hoga...
+			  object ke madad se aap class variable mai change nahi kar sakte par class se kar sakte ho...
+
+
+
+-> instance mehods are setter or getter method:
+
+	-> setter method to set the values of insatnce variables...
+	-> getter method to get the values of insatnce variables...
+

@@ -1,0 +1,30 @@
+-> What is Abstraction ?
+	
+	-> the process by which data and function are defined in such a way that only essential details can be seen and unnecessary implementations are hidden is called data abstraction
+
+
+	syntax: 
+
+			from abc import ABC,abstractmethod
+			class Employee(ABC):
+
+					abstract methods
+					concrete methods
+
+
+	-> in python abstraction is declared as abc module
+
+	-> abstract methods:- method that has a declaration but does not have an implementation of methods
+
+
+-> What is Abstract Class:
+
+	-> A class which contains one or more abstract methods and concrete methods
+
+	-> Abstract class must have at least one abstract method
+
+	-> we can not create objects of abstract class.....
+
+	-> abstract class requires at least one abstract method...
+
+	-> all abstract methods should present in abstract class must be implemented in child classes, else child class becomes abstract class.....
